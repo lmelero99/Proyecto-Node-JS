@@ -20,14 +20,17 @@ app.get("/", (req, res) => {
 });
 
 app.get("/productos", (req, res) => {
+
+    console.log(req.query);
+
     fs.readFile(path.join(__dirname, "productos.json"), (err, data) => {
         if (!err) {
             let productos = JSON.parse(data);
 
             if (req.query) {
 
-                if (req.query.productos) {
-                    productos = productos.filter(producto => producto.productos.toUpperCase().includes(req.query.productos.toUpperCase()));
+                if (req.query.nombre) {
+                    productos = productos.includes(producto => producto.nombre == req.query.nombre);
 
                     console.log(productos);
 

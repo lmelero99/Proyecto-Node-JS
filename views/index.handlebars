@@ -29,9 +29,9 @@
 
         let url = "/productos?"
 
-        let productos = document.getElementById("productos").value;
-        if (productos) {
-            url += "productos=" + value;
+        let nombre = document.getElementById("nombre").value;
+        if (nombre) {
+            url += "productos=" + nombre;
         }
 
         location = url;
