@@ -29,6 +29,8 @@ app.get("/productos", (req, res) => {
                 if (req.query.productos) {
                     productos = productos.filter(producto => producto.productos.toUpperCase().includes(req.query.productos.toUpperCase()));
 
+                    console.log(productos);
+
                     res.render('productos', {
                         listaProductos: productos
                     });
@@ -39,6 +41,6 @@ app.get("/productos", (req, res) => {
 });
 
 
-app.listen(6000, () => {
-    console.log("Puerto 6000 funcionando!");
+app.listen(3000, () => {
+    console.log("Puerto 3000 funcionando!");
 });
