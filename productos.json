@@ -1,0 +1,218 @@
+[
+        {
+            "nombre": "Anillo de piedras",
+            "descripcion": "Es un anillo rodeado de piedras color plata",
+            "imagen": "anillo1.jpg",
+            "precio": "$150"
+        },
+        {
+            "nombre": "Anillo con una piedra",
+            "descripcion": "Es un anillo con una sola piedra color plata",
+            "imagen": "anillo2.jpg",
+            "precio": "$150"
+        },
+        {
+            "nombre": "Anillo triple enlazado",
+            "descripcion": "Es un anillo esclavo de plata color plateado, dorado y cobre",
+            "imagen": "anillo3.jpg",
+            "precio": "$300"
+        },
+        {
+            "nombre": "Anillo tricolor",
+            "descripcion": "Es un anillo con 3 piedras, plateada, verde y rosa y enchapada en oro",
+            "imagen": "anillo4.jpg",
+            "precio": "$150"
+        },
+        {
+            "nombre": "Aros en hilera",
+            "descripcion": "Son aros ensamblados que abarcan toda la oreja",
+            "imagen": "aros1.jpg",
+            "precio": "$50"
+        },
+        {
+            "nombre": "Barra",
+            "descripcion": "Es una barra de acero con dos pelotas en las puntas",
+            "imagen": "aros2.jpg",
+            "precio": "$100"
+        },
+        {
+            "nombre": "Solitario",
+            "descripcion": "Es un solitario tipo argolla de acero",
+            "imagen": "aros3.jpg",
+            "precio": "$30"
+        },
+        {
+            "nombre": "Aro flor de rosa",
+            "descripcion": "Son aros con motivo de rosa blanca de porcelana",
+            "imagen": "aros4.jpg",
+            "precio": "$70"
+        },
+        {
+            "nombre": "Bolso deportivo Nike gris",
+            "descripcion": "Es un bolso ideal para llevar grandes cosas, con 3 compartimentos",
+            "imagen": "bolso1.jpg",
+            "precio": "$500"
+        },
+        {
+            "nombre": "Bolso deportivo Nike rosa pastel",
+            "descripcion": "Es un bolso ideal para llevar grandes cosas, con 3 compartimentos",
+            "imagen": "bolso2.jpg",
+            "precio": "$500"
+        },
+        {
+            "nombre": "Bolso deportivo Nike extra grande negro",
+            "descripcion": "Es un bolso deportivo extra grande, con 5 compartimentos, ideal para irse de camping",
+            "imagen": "bolso3.jpg",
+            "precio": "$800"
+        },
+        {
+            "nombre": "Bolso de camping de cuerina azul Francia",
+            "descripcion": "Es un bolso para irse de camping, con 6 compartimentos y lugar para poner bolsa de dormir",
+            "imagen": "bolso4.jpg",
+            "precio": "$800"
+        },
+        {
+            "nombre": "Cartera equipada de cuero",
+            "descripcion": "Es una cartera mediana de color celeste y dorado, con varios bolsillos",
+            "imagen": "cartera1.jpg",
+            "precio": "$600"
+        },
+        {
+            "nombre": "Cartera simple de cuero",
+            "descripcion": "Es una cartera de un solo compartimento, azul oscuro",
+            "imagen": "cartera2.jpg",
+            "precio": "$400"
+        },
+        {
+            "nombre": "Cartera de cuero tipo morral",
+            "descripcion": "Es una cartera tipo morral color negra, ideal para la facultad",
+            "imagen": "cartera3.jpg",
+            "precio": "$10"
+        },
+        {
+            "nombre": "¿...Cartera?",
+            "descripcion": "Esto se supone que era una cartera pero nos chamuyaron y nos trajeron una mochila negra con pintitas, no sé que onda",
+            "imagen": "cartera4.jpg",
+            "precio": "Y yo lo vendería a $500"
+        },
+        {
+            "nombre": "Colgante simple planeta",
+            "descripcion": "Es un colgante dorado con forma de planeta",
+            "imagen": "colgante1.jpg",
+            "precio": "$150"
+        },
+        {
+            "nombre": "Colgante simple joya rosa",
+            "descripcion": "Es un colgante plateado con una piedra color rosa con piedras plateadas alrededor",
+            "imagen": "colgante2.jpg",
+            "precio": "$150"
+        },
+        {
+            "nombre": "Colgante simple luna",
+            "descripcion": "Es un colgante plateado con una luna plateada",
+            "imagen": "colgante3.jpg",
+            "precio": "$100"
+        },
+        {
+            "nombre": "Colgante triple",
+            "descripcion": "Es un colgante plateado triple, dos lisos con una luna y una brújula, y otro sin pendiente con canicas separadas",
+            "imagen": "colgante4.jpg",
+            "precio": "$300"
+        },
+        {
+            "nombre": "Colitas de colores",
+            "descripcion": "Son colitas de muchos colores para eventos especiales como disfraces",
+            "imagen": "colitas1.jpg",
+            "precio": "$30"
+        },
+        {
+            "nombre": "Colitas de tela clásicas con motivos",
+            "descripcion": "Son colitas de diferentes colores pastel, de grosor mediano",
+            "imagen": "colitas2.jpg",
+            "precio": "$30"
+        },
+        {
+            "nombre": "Colitas grandes",
+            "descripcion": "Son colitas de grosor fino, diametro grande de colores vivos",
+            "imagen": "colitas3.jpg",
+            "precio": "$10"
+        },
+        {
+            "nombre": "Colitas moño",
+            "descripcion": "Son colitas de diferentes motivos y colores con un moño de tela",
+            "imagen": "colitas4.jpg",
+            "precio": "$40"
+        },
+        {
+            "nombre": "Hebillas pequeñas negras",
+            "descripcion": "Son hebillas invisibles para peinados profesionales",
+            "imagen": "hebillas1.jpg",
+            "precio": "$30"
+        },
+        {
+            "nombre": "Clips de acero con agarre",
+            "descripcion": "Son hebillas para sostener mechones grandes",
+            "imagen": "hebillas2.jpg",
+            "precio": "$30"
+        },
+        {
+            "nombre": "Hebillas clásicas negras",
+            "descripcion": "Son hebillas del estilo clásico",
+            "imagen": "hebillas3.jpg",
+            "precio": "$10"
+        },
+        {
+            "nombre": "Hebillas broche",
+            "descripcion": "Son hebillas tipo broche para utilizar como colitas pequeñas",
+            "imagen": "hebillas4.jpg",
+            "precio": "$40"
+        },
+        {
+            "nombre": "Mochila gris",
+            "descripcion": "Es una mochila Jansport de tela clásica de color gris, de 2 compartimentos",
+            "imagen": "mochila1.jpg",
+            "precio": "$500"
+        },
+        {
+            "nombre": "Mochila rosa",
+            "descripcion": "Es una mochila Jansport de tela clásica de color rosa, de 2 compartimentos",
+            "imagen": "mochila2.jpg",
+            "precio": "$500"
+        },
+        {
+            "nombre": "Mochila roja",
+            "descripcion": "Es una mochila Jansport de tela clásica de color roja, de 2 compartimentos",
+            "imagen": "mochila3.jpg",
+            "precio": "$500"
+        },
+        {
+            "nombre": "Mochila azul francia tipo camping",
+            "descripcion": "Es una mochila de cuerina de color azul francia, de único compartimento",
+            "imagen": "hebillas4.jpg",
+            "precio": "$200"
+        },
+        {
+            "nombre": "Pulsera con canicas",
+            "descripcion": "Es una pulsera con canicas separadas color plateada de acero quirúrgico",
+            "imagen": "pulsera1.jpg",
+            "precio": "$30"
+        },
+        {
+            "nombre": "Te quiero mamá",
+            "descripcion": "Es una pulsera con bolas de charol blancas con una chapa ovalada que dice 'Te quiero mamá'",
+            "imagen": "pulsera2.jpg",
+            "precio": "$50"
+        },
+        {
+            "nombre": "Pulsera de hilo",
+            "descripcion": "Es una pulsera de hilo verde agua con una chapa redonda que dice 'Happy man'",
+            "imagen": "pulsera3.jpg",
+            "precio": "$20"
+        },
+        {
+            "nombre": "Pulsera cadena",
+            "descripcion": "Es una pulsera tipo cadena dorada de plata",
+            "imagen": "pulsera4.jpg",
+            "precio": "$30"
+        }
+    ]

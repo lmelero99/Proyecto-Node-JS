@@ -1,0 +1,16 @@
+{
+  "name": "proyectonodejs-16102019",
+  "version": "1.0.0",
+  "description": "Proyecto de presentación de Node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lourdes Melero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}

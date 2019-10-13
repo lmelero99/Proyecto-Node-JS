@@ -1,0 +1,39 @@
+<div class="jumbotron" style="height: 220px; width:auto">
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+
+        <div class="col-sm-3" style="margin:-55px">
+            <img src="fotopruebahtml.png" alt="img" style="height: 200px; width: 200px;">
+        </div>
+
+        <div class="col-sm-5" style=m argin:inherit>
+            <h1 style="text-align: center;">Emprendimiento</h1>
+            <h4 style="text-align: center;">Carteras, bijouterie y mas.</h4>
+            <p style="text-align: center;">Bonito, barato y en tu barrio. Hacemos envios.</p>
+            <div class="buscarproducto">
+                <label for="producto">¿Qué estás buscando?</label>
+                <input type="text" name="product" id="product">
+            </div>
+            <button id="buscar" onclick="buscarProducto()">Buscar</button>
+        </div>
+
+        <div class="col-sm-3"></div>
+    </div>
+</div>
+
+
+
+<script>
+    function buscarProducto() {
+
+        let url = "/productos?"
+
+        let productos = document.getElementById("productos").value;
+        if (productos) {
+            url += "productos=" + value;
+        }
+
+        location = url;
+    }
+</script>
