@@ -27,9 +27,14 @@
 <script>
     function buscarProducto() {
 
+        console.log(productos);
+
         let url = "/productos?"
 
-        let nombre = document.getElementById("nombre").value;
+        let nombre = document.getElementById("product").value;
+
+        console.dir(nombre);
+
         if (nombre) {
             url += "productos=" + nombre;
         }

@@ -29,8 +29,8 @@ app.get("/productos", (req, res) => {
 
             if (req.query) {
 
-                if (req.query.nombre) {
-                    productos = productos.includes(producto => producto.nombre == req.query.nombre);
+                if (req.query.productos) {
+                    productos = productos.includes(producto => producto.productos == req.query.productos);
 
                     console.log(productos);
 
