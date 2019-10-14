@@ -21,27 +21,33 @@ app.get("/", (req, res) => {
 
 app.get("/productos", (req, res) => {
 
-    console.log(req.query);
+    let listaProductos = [];
 
     fs.readFile(path.join(__dirname, "productos.json"), (err, data) => {
         if (!err) {
             let productos = JSON.parse(data);
-
             if (req.query) {
-
                 if (req.query.productos) {
-                    productos = productos.includes(producto => producto.productos == req.query.productos);
 
-                    console.log(productos);
+                    req.query.productos = req.query.productos.toLowerCase();
+
+                    productos.forEach(producto => {
+                        producto.nombre = producto.nombre.toLowerCase();
+
+                        if (producto.nombre.includes(req.query.productos)) listaProductos.push(producto)
+                    });
 
                     res.render('productos', {
-                        listaProductos: productos
+                        listaProductos: listaProductos
                     });
                 }
             }
         }
+
     });
 });
+
+
 
 
 app.listen(3000, () => {
