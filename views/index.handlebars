@@ -1,24 +1,24 @@
-<div class="jumbotron" style="height: 220px; width:auto">
+<div class="jumbotron" style="height: 220px; width:auto; background-color:palegreen;">
 
     <div class="row">
         <div class="col-sm-1"></div>
 
         <div class="col-sm-3" style="margin:-55px">
-            <img src="fotopruebahtml.png" alt="img" style="height: 200px; width: 200px;">
+            <img src="img/fotopruebahtml.png" alt="img" style="height: 200px; width: 500px;">
         </div>
 
-        <div class="col-sm-5" style=m argin:inherit>
+        <div class="col-sm-5" style="margin:inherit">
             <h1 style="text-align: center;">Emprendimiento</h1>
             <h4 style="text-align: center;">Carteras, bijouterie y mas.</h4>
             <p style="text-align: center;">Bonito, barato y en tu barrio. Hacemos envios.</p>
+            <br>
+            <br>
+            <br>
             <div class="buscarproducto">
                 <label for="producto">¿Qué estás buscando?</label>
                 <input type="text" name="product" id="product">
             </div>
             <button id="buscar" onclick="buscarProducto()">Buscar</button>
-        </div>
-
-        <div class="col-sm-3"></div>
     </div>
 </div>
 
@@ -27,18 +27,16 @@
 <script>
     function buscarProducto() {
 
-        console.log(productos);
-
         let url = "/productos?"
 
         let product = document.getElementById("product").value;
 
-        console.dir(nombre);
-
         if (product) {
-            url += "productos=" + nombre;
+            url += "productos=" + product;
         }
 
         location = url;
     }
+
+
 </script>

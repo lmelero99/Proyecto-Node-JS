@@ -42,6 +42,7 @@ app.get("/productos", (req, res) => {
                     });
                 }
             }
+
         }
 
     });

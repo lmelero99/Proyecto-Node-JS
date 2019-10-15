@@ -1,11 +1,12 @@
 <h1>Listado de {{listaProductos.length}} productos</h1>
 
 {{#each listaProductos}}
-<div class="producto">
+<div class="producto" style="font-weight:bold;">
     <p>Nombre: {{this.nombre}}</p>
     <p>Descripcion: {{this.descripcion}}</p>
-    <p>Imagen: {{this.imagen}}</p>
     <p>Precio: {{this.precio}}</p>
-    <img class="imagen" src="img/{{this.imagen}}">
+    <img class="imagen" src="img/{{this.imagen}}" style="width: 200px">
+    <br>
+    <br>
 </div>
 {{/each}}
