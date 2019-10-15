@@ -25,11 +25,19 @@
 
 
 <script>
+
+    /** Esta funcion llamada del botón buscar, lleva a la url en donde se arrojan los resultados */
     function buscarProducto() {
+
+        /** url del app.get "/productos", queda "localhost:3000/productos" */
 
         let url = "/productos?"
 
+        /** Se crea el elemento del string que se pone en la búsqueda dentro del input*/
+
         let product = document.getElementById("product").value;
+
+        /** Se arma la url de la página con los resultados arrojados según la búsqueda. Ej, si se buscó "anillo", queda "localhost:3000/productos?productos=anillo" **/
 
         if (product) {
             url += "productos=" + product;
