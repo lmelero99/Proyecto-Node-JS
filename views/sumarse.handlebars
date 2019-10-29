@@ -1,0 +1,50 @@
+<form action="aceptada">
+    <fieldset>
+        <legend>Registrarse:</legend>
+        Nombre:
+        <br>
+        <input type="text" name="firstname" style="color:gray" id="firstname" value="Josue">
+        <br> Apellido:
+        <br>
+        <input type="text" name="lastname" style="color:gray" id="lastname" value="Garcia">
+        <br> Email:
+        <br>
+        <input type="text" name="firstname" style="color:gray" id="Email" value="example@gmail.com">
+        <br> Celular:
+        <br>
+        <input type="number" name="lastname" style="color:gray" id="Celular" value="01122334455">
+        <br> Edad:
+        <br>
+        <input type="number" name="age" style="color:gray" id="age" value="18">
+        <br> Dirección:
+        <br>
+        <input type="text" name="address" style="color:gray" id="address" value="Calle Falsa 1234">
+        <br> Localidad:
+        <br>
+        <input type="text" name="country" style="color:gray" id="country" value="Lanús">
+        <br> Usuario:
+        <br>
+        <input type="text" name="user" style="color:gray" id="user" value="josuegarcia1987">
+        <br> Contraseña:
+        <br>
+        <input type="password" name="pass" style="color:gray" id="pass" value="*********">
+        <br> Confirmar contraseña:
+        <br>
+        <input type="password" name="cpass" style="color:gray" id="cpass" value="*********">
+        <br>
+        <br>
+        <button id="enviar" onclick="enviarDatos()">Enviar</button>
+    </fieldset>
+</form>
+
+<script>
+
+    function enviarDatos() {
+
+        let url = "/aceptada"
+
+        let aceptada = document.getElementById("enviar");
+
+        location = url;
+    }
+</script>

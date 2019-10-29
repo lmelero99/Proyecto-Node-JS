@@ -1,0 +1,107 @@
+<div id="comprarProducto">
+        <form action="aceptada" id="formulario1">
+            <fieldset>
+              <legend>Pago en efectivo:</legend>
+              Nombre:<br>
+              <input type="text" name="firstname" style="color:gray" id="firstname" value="Josue">
+              <br>
+              Apellido:<br>
+              <input type="text" name="lastname" style="color:gray" id="lastname" value="Garcia">
+              <br>
+              Email:<br>
+              <input type="text" name="firstname" style="color:gray" id="Email" value="example@gmail.com">
+              <br>
+              Celular:<br>
+              <input type="text" name="lastname" style="color:gray" id="Celular" value="01122334455">
+              <br><br>
+              <button id="enviar" onclick="pagoEfectivo()">Enviar</button>
+            </fieldset>
+          </form>
+            <br>
+            <form>
+            <fieldset>
+                <legend style="font-size:30px">Pago con tarjeta:</legend>
+                <p>Seleccione tipo de tarjeta</p>
+              <input type="radio" name="gender" value="male" checked> Credito<br>
+              <input type="radio" name="gender" value="female" checked> Debito<br>
+            </form>
+            <br>
+                <p>Llene los datos de la tarjeta</p>
+         <form action="aceptada" id="formulario2">
+            <form>
+            Nombre:<br>
+            <input type="text" name="firstname" style="color:gray;" id="firstname2" value="Josue">
+            <br>
+            Apellido:<br>
+            <input type="text" name="lastname" style="color:gray;" id="lastname2" value="Garcia">
+            <br>
+            Numero de tarjeta:<br>
+            <input type="text" name="Número" style="color:gray;" id="Nombretarjeta" value="xxxx xxxx xxxx xxxx">
+            <br>
+            Direccion:<br>
+            <input type="text" name="Dirección" style="color:gray" id="Address" value="Street 1234">
+            <br>
+            Localidad:<br>
+            <input type="text" name="Localidad" style="color:gray" id="City" value="Seleccionar localidad">
+            <br>
+            Codigo de seguridad:<br>
+            <input type="text" name="Código" style="color:gray" id="Code" value="example:123">
+            </form>
+            <br>
+            Fecha de vencimiento:
+        <form action="aceptada">
+            <form>
+             <select name="Mes">
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+                 <option value="11">11</option>
+                 <option value="12">12</option>
+                 </select>
+            <select name="Ano">
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                </select>
+                 <br><br>
+            <button id="enviar2" onclick="pagoTarjeta()">Enviar</button>
+                </fieldset>
+          </form>
+
+          </div>
+
+<script>              
+
+
+            function pagoEfectivo() {
+
+            let url = "/aceptada"
+
+            let aceptada = document.getElementById("enviar");
+
+            location = url;
+
+            }
+
+            function pagoTarjeta() {
+
+              let url = "/aceptada"
+
+              let aceptada = document.getElementById("enviar2");
+
+              location = url;
+
+            }
+
+              </script>
+
+              

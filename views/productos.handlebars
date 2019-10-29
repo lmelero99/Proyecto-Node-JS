@@ -6,7 +6,20 @@
     <p>Descripcion: {{this.descripcion}}</p>
     <p>Precio: {{this.precio}}</p>
     <img class="imagen" src="img/{{this.imagen}}" style="width: 200px">
+    <button id="comprar" onclick="comprarProducto()">Comprar</button>
     <br>
     <br>
 </div>
+
+<script>
+
+    function comprarProducto() {
+
+        let url = "/comprar"
+
+        let comprar = document.getElementById("comprar");
+
+        location = url;
+    }
+</script>
 {{/each}}

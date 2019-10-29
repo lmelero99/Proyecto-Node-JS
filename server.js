@@ -60,6 +60,20 @@ app.get("/productos", (req, res) => {
     });
 });
 
+app.get("/comprar", (req, res) => {
+    res.render('comprar');
+});
+
+app.get("/aceptada", (req, res) => {
+    res.render('aceptada');
+});
+
+app.get("/sumarse", (req, res) => {
+    res.render('sumarse');
+});
+
+
+
 
 /**El código que configura el servidor. localhost:3000 en este caso */
 
